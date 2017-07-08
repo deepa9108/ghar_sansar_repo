@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+         							<form>
+         							<span><h1><small>Contact Us</small></h1></span>
+    									<div class="input-group" style="margin-bottom:15px">
+     										 <i class="fa fa-user input-group-addon" style="font-size:20px;color:red"></i>
+      										 <input type="text" class="form-control" ng-model="fname" id="fname" placeholder="First Name" required>
+    									</div>
+
+    									<div class="input-group" style="margin-bottom:15px">
+   											 <i class=" fa fa-user input-group-addon" style="font-size:20px;color:red"></i>
+      										 <input type="text" class="form-control" ng-model="lname" id="lname" placeholder="Last Name" required>
+   									    </div>
+
+    									<div class="input-group" style="margin-bottom:15px">
+    										<i class=" fa fa-envelope input-group-addon" aria-hidden="true" style="font-size:15px;color:red"></i>      
+   											<input type="text" class="form-control" ng-model="email" id="email" placeholder="email" required>
+    									</div>
+
+     									<div class="input-group" style="margin-bottom:15px">
+      										<i class="fa fa-phone input-group-addon" style="font-size:20px;color:red"></i>
+      										<input type="text" class="form-control" ng-model= "mobile" id="mobile" placeholder="mobile" required>
+    									</div>
+
+    									<div class="input-group" style="margin-bottom:15px">
+      										<i class="fa fa-address-card input-group-addon" style="font-size:15px;color:red"></i>
+      										<textarea type="text" class="form-control" rows="3" ng-model= "address" id="address" placeholder="Message" required></textarea>
+    									</div>
+    									<div class="form-group">
+                        					<button class="btn btn-danger btn-block" id="btn2" ng-click="msg()">Submit</button>
+    									</div>
+    							    </form>
+
+</html>
